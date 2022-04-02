@@ -1,0 +1,168 @@
+@media(max-width:750px){
+    *{
+        box-sizing: border-box;
+        position: sticky;
+    }
+    body{
+        justify-content: center;
+
+    }
+    .nav-container, .list-container, .a-items {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .ul-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 25%;
+    }
+    .a-items{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .audi-logo{
+            display: flex;
+            justify-content: center;
+    }
+    .para-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .grab-theoffer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .para-upperdevition{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    .tableview{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-bottom: solid red ;
+    }
+    .head123{
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+    .para123{
+        border-bottom: solid red 20px;
+    }
+    .audiq5{
+        margin-top: 20px;
+    }
+    .containerleftright{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container11, .container112, .container113{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .right{
+        width:100%;
+        background-color: black;
+        color: white;
+        margin-right: 30px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        display: inline;
+        border: solid red;
+        padding: 30px;
+        border-radius: 20px;
+        margin-left: 30px;
+        margin-top: -50px;
+
+    }
+    .right2{
+        width:100%;
+        background-color: black;
+        color: white;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: inline;
+        border: solid red;
+        padding: 30px;
+        border-radius: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: -50px;
+    }
+    .right3{
+        width:100%;
+        background-color: black;
+        color: white;
+        /* margin-right: 30px;
+        margin-left: 30px; */
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        display: inline;
+        border: solid red;
+        padding: 30px;
+        border-radius: 20px;
+        margin-top: -50px;
+        margin-right: 30px;
+        margin-left: 30px;
+
+    }
+    .form-body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form-container{
+        margin-top: 50px;
+        border-top: solid red ;
+        border-radius: 20px;
+    }
+    .head-for-form{
+        margin-bottom: 20px;
+    }
+}
+    
+@media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+    margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+    flex: 1;
+    }
+    
+    .nav__item--extra {
+    flex-grow: 2;
+    }
+    
+    .footer__addr {
+    flex: 1 0px;
+    }
+    
+    .footer__nav {
+    flex: 2 0px;
+    }
+}
